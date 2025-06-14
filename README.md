@@ -27,14 +27,14 @@ To see what would be deleted without actually deleting anything:
 remove_node_modules ~/projects/node --dry-run
 ```
 
-## Compile
+# How to Compile
 
 You will need:
 
 - CMake (>= 4.0)
 - Make
 
-### Configure
+## Configure
 
 From the project root, run one of the following to configure the build (choose your compiler):
 
@@ -49,7 +49,7 @@ cmake --preset gcc
 cmake --preset msvc
 ```
 
-### Build
+## Build
 
 After configuring, build with the matching preset:
 
