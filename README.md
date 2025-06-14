@@ -32,7 +32,7 @@ remove_node_modules ~/projects/node --dry-run
 You will need:
 
 - CMake (>= 4.0)
-- Ninja build system
+- Make
 
 ### Configure
 
