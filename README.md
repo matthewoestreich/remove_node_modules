@@ -63,3 +63,16 @@ cmake --build --preset gcc
 # Build with MSVC (Windows)
 cmake --build --preset msvc
 ```
+
+# Testing
+
+```bash
+# Test with clang++
+ctest --preset clang
+
+# Test with g++/gcc
+ctest --preset gcc
+
+# Test with MSVC (Windows)
+ctest --preset msvc
+```

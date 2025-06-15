@@ -61,5 +61,32 @@
 			"name": "msvc",
 			"configurePreset": "msvc"
 		}
+	],
+
+	"testPresets": [
+		{
+			"name": "default",
+			"hidden": true,
+			"output": {
+				"outputOnFailure": true,
+				"verbosity": "verbose",
+				"subprojectSummary": true
+			}
+		},
+		{
+			"name": "clang",
+			"configurePreset": "clang",
+			"inherits": "default"
+		},
+		{
+			"name": "gcc",
+			"configurePreset": "gcc",
+			"inherits": "default"
+		},
+		{
+			"name": "msvc",
+			"configurePreset": "msvc",
+			"inherits": "default"
+		}
 	]
 }
