@@ -25,5 +25,5 @@ TEST_CASE("Removal") {
     REQUIRE_FALSE(fs::exists(tmp_dir / "ProjectB" / "node_modules"));
   }
 
-  //fs::remove_all(tmp_dir);
+  fs::remove_all(tmp_dir);
 }
